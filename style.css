@@ -1,0 +1,46 @@
+body {
+    background-color :blanchedalmond;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around; /* Espacio uniforme entre elementos */
+    background-color: #333; /* Color de fondo del menú */
+}
+nav a {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Eliminar el subrayado */
+    padding: 15px; /* Espaciado alrededor de los enlaces */
+    font-family: Arial, sans-serif; /* Fuente */
+}
+
+nav a:hover {
+    background-color: #575757; /* Hover es cambiar el color de fondo al pasar el ratón */
+}
+
+.content {
+    text-align: center; 
+}
+
+.main-picture { 
+    width: 100%;
+   height: auto;
+   display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    align-items: center;
+    padding: 20%;
+}

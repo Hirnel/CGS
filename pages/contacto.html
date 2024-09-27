@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi yo de ayer</title>
+    <link rel="stylesheet" href="/style.css" />
+    <!-- Esto es para el icono de la pagina de arriba -->
+    <link rel="icon" type="image/x-icon" href="/imagenes/favicon.ico" /> 
+    
+  </head>
+<body>
+  <header>
+    <nav>
+        <a href="/index.html">Hogar dulce hogar</a>
+        <a href="/pages/biografia.html">Acerca de mí</a>
+        <a href="/pages/portfolio.html">Portfolio</a>
+    </nav>
+  </header>
+  <main>
+    <div class="content">
+        <h2>Contact</h2>
+
+        <form id="contactForm">
+            <ul>
+          <li><label for="fname">Nombre:</label></li>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Introduce nombre..."
+            minlength="3"
+            maxlenght="30"
+            required
+          />
+
+          <li><label for="lname">Apellidos:</label></li>
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Introduce apellidos..."
+            minlength="3"
+            maxlenght="30"
+            required
+          />
+
+          <li><label for="fname">Email:</label></li>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Ejemp:javiscript@gmail.com"
+            required
+          />
+
+          <li><label for="tlf">Teléfono al que llamarte:</label></li>
+          <input
+            type="tel"
+            id="tlf"
+            name="tlf"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+            placeholder="Introduce teléfono..."
+            required
+          />
+
+          <li><label for="favorite">Dinos tu disponibilidad de horario:</label></li>
+          <select id="favorite" name="favorite">
+            <option value="desayuno">9:00 a 12:00</option>
+            <option value="almuerzo">12:00 a 14:00</option>
+            <option value="merienda">16:00 a 18:00</option>
+            
+          </select>
+          
+          <li><label for="comments">Cuentanos tu motivo de contacto</label></li>
+          <textarea
+            rows="2"
+            cols="30"
+            name="comments"
+            wrap="hard"
+            placeholder="Tus observaciones..."
+          ></textarea>
+          <div>
+            <label
+              ><input
+                type="checkbox"
+                id="accept"
+                value="accept"
+                name="accept"
+              />
+              Acepto los términos legales</label
+            >
+
+            <label for="spam"
+              ><input type="checkbox" id="spam" value="spam" name="spam" />
+              Acepto recibir publicidad</label
+            >
+          </div>
+
+          <input type="submit" value="Enviar" />
+        </ul>
+        </form>
+    </div>
+  </main>
+</body>
+</html>
