@@ -20,7 +20,7 @@ JavaScript: Añadiendo interactividad y funcionalidad dinámica.
 GitHub: Gestión del código y colaboración a través de esta plataforma.
 Cada una de estas tecnologías me permite desarrollar de manera eficiente y profesional, mientras mantengo una experiencia de usuario fluida y atractiva.
 
-📚 Integración con Obsidian
+<img src="./imagenes/obsidian.png"> Integración con Obsidian
 Además de este proyecto, tengo planeada una vinculación con mi proyecto en Obsidian, una herramienta poderosa para organizar grandes volúmenes de información. Esta integración demostrará mi capacidad para:
 
 Gestionar conocimiento de manera efectiva.
@@ -31,4 +31,3 @@ Mi objetivo es crear un entorno donde la gestión del conocimiento y la organiza
 🌟 ¿Por qué este proyecto importa?
 Este proyecto no es solo un repositorio de ideas, es un reflejo de mis habilidades para transformar el desorden en información organizada y accesible. Si estás buscando a alguien que pueda manejar datos complejos, crear sistemas de organización inteligentes y pensar fuera de la caja, este proyecto es un ejemplo de cómo lo hago.
 
-¡Explora, conecta y descubre!
